@@ -1,0 +1,75 @@
+html {
+  font-family: "Raleway", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-size: cover;
+  background-color: #ECE6DD; }
+
+body {
+  margin: auto;
+  max-width: 964px;
+  background-color: white;
+  padding: 0 10px; }
+
+header {
+  margin: 60px 0 0 0;
+  text-align: center; }
+  header h1 {
+    color: #1485CC;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    padding: 20px 0 0 0; }
+  header h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    margin: -30px 0 30px 0; }
+
+nav {
+  border-bottom: solid #333 3px;
+  border-top: solid #333 3px;
+  padding: 0 0 0 230px;
+  font-size: 18px; }
+  nav ul li {
+    display: inline-block;
+    padding: 0 25px; }
+
+#banner {
+  height: 300px;
+  margin: 5px 0;
+  background: url("../img/coffee_res.jpg") no-repeat center;
+  background-color: white; }
+
+#profile {
+  padding: 15px 0;
+  text-align: center;
+  float: right;
+  width: 25%;
+  max-width: 240px; }
+
+#blogs {
+  float: left;
+  width: 70%;
+  max-width: 700px;
+  font-size: 20px; }
+  #blogs div {
+    border-bottom: #ECE6DD solid 3px;
+    margin: 15px 0;
+    line-height: 28px; }
+  #blogs h3 {
+    font-size: 32px;
+    font-family: "Dancing Script", cursive;
+    color: #1485CC; }
+
+footer {
+  clear: both;
+  padding: 0 0 20px 0; }
+  footer ul {
+    text-align: center;
+    border-bottom: solid #333 3px;
+    border-top: solid #333 3px;
+    padding: 10px 0; }
+    footer ul li {
+      display: inline-block;
+      padding: 5px; }
+
+/*# sourceMappingURL=blog.css.map */
